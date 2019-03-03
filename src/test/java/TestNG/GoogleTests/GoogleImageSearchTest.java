@@ -48,7 +48,7 @@ public class GoogleImageSearchTest extends BaseTestCase{
         googleImageSearch.switchToNewTab();
 
         assertTrue(googleImageSearch.checkCurrentURLIs(expectedURL), "No estamos en la pagina del oficial del COIIPA. La url es " + driver.getCurrentUrl());
-
+// test git command
     }
 
     @AfterMethod
